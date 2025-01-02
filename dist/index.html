@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeBros Payment App</title>
+    <link rel="stylesheet" href="/index.1303bb05.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <h1>DeBros Solana Pay</h1>
+<div class="container">
+   
+    
+    <!-- Wallet Connection Section -->
+    <button id="connect-wallet" onclick="connectWallet()">
+        <i class="fas fa-wallet"></i> ΣΥΝΔΕΣΗ ΠΟΡΤΟΦΟΛΙΟΥ
+    </button>
+    
+   
+    
+    <!-- Token Selection Section -->
+    <label for="token-select">ΕΠΙΛΟΓΗ ΚΡΥΠΤΟΝΟΜΙΣΜΑΤΟΣ:</label>
+    <div class="radio-dropdown">
+        <input type="radio" id="eurc" name="token" value="EURC" checked="">
+        <label for="eurc">
+            <img src="/eurc-icon.da94d0f9.png" alt="EURC Icon" class="icon"> EURC
+        </label>
+        
+        <input type="radio" id="usdc" name="token" value="USDC">
+        <label for="usdc">
+            <img src="/usdc-icon.7db60163.png" alt="USDC Icon" class="icon"> USDC
+        </label>
+        
+        <input type="radio" id="sol" name="token" value="SOL">
+        <label for="sol">
+            <img src="/solana2-logo.c4bb8d79.png" alt="SOL Icon" class="icon"> SOLANA
+        </label>
+    </div>
+    
+    <!-- EUR Amount Input and Converted Amount Display -->
+    <div class="conversion-section">
+        <label for="eur-amount">ΠΟΣΟ ΕΙΣΠΡΑΞΗΣ ΣΕ ΕΥΡΩ:</label>
+        <input type="number" id="eur-amount" placeholder="" step="0.01" required="">
+
+                    <!-- Keypad Section -->
+                    <div class="keypad">
+                        <button onclick="inputKey(1)">1</button>
+                        <button onclick="inputKey(2)">2</button>
+                        <button onclick="inputKey(3)">3</button>
+                        <button onclick="inputKey(4)">4</button>
+                        <button onclick="inputKey(5)">5</button>
+                        <button onclick="inputKey(6)">6</button>
+                        <button onclick="inputKey(7)">7</button>
+                        <button onclick="inputKey(8)">8</button>
+                        <button onclick="inputKey(9)">9</button>
+                        <button onclick="inputKey(0)">0</button>
+                        <button onclick="clearInput()">Clear</button>
+                    </div>
+        
+        <label for="converted-amount">ΠΟΣΟ ΕΙΣΠΡΑΞΗΣ ΣΕ ΚΡΥΠΤΟΝΟΜΙΣΜΑ:</label>
+        <input type="text" id="converted-amount" placeholder="" readonly="" style="border: 1px solid #ddd; border-radius: 5px; width: 100%; padding: 10px; font-size: 14px">
+    </div>
+    
+    <!-- Payment Details Section -->
+
+ 
+    
+    <button onclick="displayQRCode()">ΔΗΜΙΟΥΡΓΙΑ QR Code</button>
+    <canvas id="qr-canvas"></canvas>
+    <button id="close-canvas" onclick="clearCanvas()">ΚΑΘΑΡΙΣΜΟΣ</button>
+</div>
+<div class="links">
+    <a href="https://example.com/terms" target="_blank">Terms of Service</a>
+    <a href="https://example.com/privacy" target="_blank">Privacy Policy</a>
+</div>
+<script src="/index.3d214d75.js" defer=""></script>
+
+</body>
+</html>
