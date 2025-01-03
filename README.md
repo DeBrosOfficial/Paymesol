@@ -11,7 +11,7 @@ Payme.sol, as an open-source project, currently supports Euro-to-Crypto conversi
 <h3 align="left">1. Install Phantom Wallet</h3>
 
 
-Phantom Wallet is available as a mobile app (iOS, Android) or a browser extension (Chrome, Firefox, Brave). Download it from the official website and follow the on-screen instructions to create a new wallet or import an existing one.
+Phantom Wallet is available as a mobile app (iOS, Android) or a browser extension (Chrome, Firefox, Brave). Download it from the official website https://phantom.com/ and follow the on-screen instructions to create a new wallet or import an existing one.
 
 <h3 align="left">2. Generate Your Payment QR Code</h3>
 
@@ -40,6 +40,8 @@ Phantom Wallet is available as a mobile app (iOS, Android) or a browser extensio
 <h3 align="left">That's it! You've successfully received a payment using Payme.sol.</h3>
 
 <h4 align="left">Always verify the payment information before proceeding.Remember, blockchain transactions are irreversible.</h4>
+
+<h2 align="left">Documentation: https://docs.paymesol.app</h2>
 
 ###
 
