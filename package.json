@@ -36,6 +36,10 @@
     "@parcel/core": "^2.9.3",
     "@parcel/watcher": "^2.0.5",
     "@swc/core": "^1.3.55"
-  }
+  },
+   "browserslist": [
+    "> 0.25%",
+    "not dead"
+  ]
 }
 
