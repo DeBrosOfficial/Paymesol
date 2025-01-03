@@ -1,4 +1,4 @@
-<h1 align="left">PayMe Sol DApp</h1>
+<h1 align="left">Payme.sol dApp</h1>
 
 ###
 
