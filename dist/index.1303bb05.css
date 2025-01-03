@@ -1,0 +1,224 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #ab9ff2, #9945fd);
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+}
+
+.app-container {
+  text-align: center;
+  background: #222;
+  border-radius: 15px;
+  flex-direction: column;
+  align-items: normal;
+  gap: 5px;
+  width: 325px;
+  padding: 20px;
+  display: flex;
+  box-shadow: 0 10px 30px #0003;
+}
+
+h1 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+#connect-wallet {
+  color: #fff;
+  cursor: pointer;
+  background-color: #3c315b;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 10px;
+  padding: 12px;
+  font-size: 16px;
+  transition: background .3s;
+}
+
+#connect-wallet:hover {
+  background-color: #50597b;
+}
+
+.radio-dropdown {
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+  display: flex;
+}
+
+.radio-dropdown input[type="radio"] {
+  display: none;
+}
+
+.radio-dropdown label {
+  cursor: pointer;
+  color: #fff;
+  background-color: #433c4f;
+  border: 1px solid #ab9ff2;
+  border-radius: 8px;
+  align-items: center;
+  padding: 5px 10px;
+  transition: background-color .2s, color .2s;
+  display: flex;
+}
+
+.radio-dropdown label:hover {
+  background-color: #444d50;
+}
+
+.radio-dropdown input[type="radio"]:checked + label {
+  color: #fff;
+  background-color: #ab9ff2;
+  border-color: #2ec08b;
+}
+
+input[type="number"], input[type="text"] {
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 0;
+  padding: 5px;
+  font-size: 15px;
+}
+
+.keypad {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  margin-top: 10px;
+  display: grid;
+}
+
+.keypad button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #000;
+  border: none;
+  border-radius: 8px;
+  padding: 15px;
+  font-size: 16px;
+  transition: background-color .2s;
+}
+
+.keypad button:hover {
+  background-color: #ab9ff2;
+}
+
+.keypad button:active {
+  background-color: #3c315b;
+}
+
+.keypad .clear {
+  color: #fff;
+  background-color: #ff7243;
+}
+
+#generate-qr {
+  color: #fff;
+  cursor: pointer;
+  background-color: #2ec08b;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 16px;
+  transition: background .3s;
+}
+
+#generate-qr:hover {
+  background-color: #25a671;
+}
+
+.modal {
+  z-index: 1000;
+  background-color: #00000080;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.modal-content {
+  text-align: center;
+  background-color: #2ec08b;
+  border-radius: 10px;
+  justify-content: center;
+  width: 90%;
+  max-width: 400px;
+  padding: 20px;
+  display: grid;
+  box-shadow: 0 4px 8px #0003;
+}
+
+.modal-content h3 {
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.close-button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #ff7243;
+  border: none;
+  border-radius: 8px;
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+#qr-canvas {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.links {
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+}
+
+.links img {
+  cursor: pointer;
+  width: 30px;
+  height: auto;
+  transition: transform .2s;
+}
+
+.links img:hover {
+  transform: scale(1.1);
+}
+
+.icon {
+  vertical-align: middle;
+  width: 25px;
+  height: auto;
+  margin-right: 5px;
+}
+
+.logo {
+  width: 180px;
+}
+
+.footer-icon {
+  width: 25px;
+  margin: 0 18px;
+}
+/*# sourceMappingURL=index.1303bb05.css.map */
