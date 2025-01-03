@@ -1,0 +1,7 @@
+{
+  "extends": "@parcel/config-default",
+  "transformers": {
+    "*.webmanifest": ["@parcel/transformer-webmanifest"],
+    "raw:*": ["@parcel/transformer-raw"]
+  }
+}
