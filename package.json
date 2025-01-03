@@ -4,7 +4,8 @@
   "description": "A simple app to generate Solana Pay QR codes",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "dependencies": {
     "@reown/walletkit": "^1.1.1",
