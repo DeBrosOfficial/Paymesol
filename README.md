@@ -47,6 +47,8 @@ Phantom Wallet is available as a mobile app (iOS, Android) or a browser extensio
 
 All content and materials related to Payme.sol, including but not limited to software code, designs, textual content, specifications, documentation, and any associated code, are protected by copyright laws and international copyright treaties. Unauthorized use or reproduction of any part of Payme.sol is strictly prohibited without the express written permission of DeBros. 
 
+© Payme.sol - DeBros 2024-2025. All rights reserved.
+
 ###
 
 <br clear="both">
