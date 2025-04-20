@@ -1,3 +1,9 @@
+# Important Update: DeBros Has Moved!
+
+All activity for this project has moved from this GitHub repository to our new home at https://git.debros.io/explore/repos. The new version will be available there when it goes live.
+
+This repository will remain available for reference but will no longer receive updates.
+
 <h1 align="left">Payme.sol: Your Gateway to Fast, Secure, Decentralized, Peer-to-Peer Solana Payments.</h1>
 
 
